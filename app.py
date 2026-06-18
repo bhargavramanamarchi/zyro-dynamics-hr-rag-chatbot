@@ -37,7 +37,7 @@ def build_rag():
     )
 
     retriever = vectorstore.as_retriever(
-        search_kwargs={"k":3}
+        search_kwargs={"k":5}
     )
 
     llm = ChatGroq(
