@@ -2,10 +2,12 @@ streamlit
 langchain
 langchain-community
 langchain-core
+langchain-text-splitters
 langchain-huggingface
 langchain-groq
-langchain-text-splitters
 faiss-cpu
 sentence-transformers
 pypdf
-cryptography
+huggingface-hub
+torch
+torchvision
